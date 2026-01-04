@@ -1,0 +1,13 @@
+baseURL = 'https://sigcont.me/'
+languageCode = 'en-us'
+title = 'sigcont'
+theme = 'PaperMod'
+
+[params]
+    defaultTheme = "auto"
+    showCodeCopyButtons = true # Essential for SDEs
+    showReadingTime = true
+    
+    [params.homeInfoParams]
+        Title = "sigcont"
+        Content = "Systems Architecture, Storage Internals, and Engineering Leadership."
