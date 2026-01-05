@@ -1,3 +1,15 @@
+:root {
+    /* PaperMod default is usually around 700px-800px */
+    /* Change this to 1000px or 1100px for a wider, modern technical look */
+    --main-width: 1000px; 
+}
+
+/* Optional: If you want individual posts to be even wider */
+.post-single {
+    --main-width: 1100px;
+}
+
+
 /* ============================================================
    1. TOP NAVIGATION & LOGO (Header Area)
    ============================================================ */
@@ -78,4 +90,73 @@
 
 .footer a:hover {
     text-decoration: underline !important;
+}
+
+
+/* ============================================================
+   4. GLOBAL PAGE HEADERS (Constrained Black Line)
+   ============================================================ */
+
+/* Targets the content area specifically so the line doesn't bleed to the edges */
+.page-header, .post-header {
+    border-bottom: 2px solid black !important;
+    padding-bottom: 10px !important;
+    margin-bottom: 20px !important;
+    
+    /* This aligns it with your text 'scale' */
+    max-width: var(--main-width);
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Dark mode adjustment */
+.dark .page-header, .dark .post-header {
+    border-bottom: 2px solid white !important;
+}
+
+
+/* ============================================================
+   4. GLOBAL NAVIGATION DIVIDER (Fixed Scale)
+   ============================================================ */
+
+/* We target the <ul> or the container inside the nav */
+.nav #menu, .nav .logo {
+    /* We don't put the border here yet */
+}
+
+/* This targets the wrapper that PaperMod uses to center content */
+.nav {
+    /* Keep the nav itself full width but add the border to its bottom */
+    border-bottom: 1.5px solid #444 !important; 
+    
+    /* Center the line by constraining the nav's reach */
+    max-width: var(--main-width);
+    margin-left: auto !important;
+    margin-right: auto !important;
+    
+    padding-bottom: 10px;
+    margin-bottom: 30px;
+}
+
+/* Dark mode adjustment */
+.dark .nav {
+    border-bottom: 1.5px solid #666 !important;
+}
+
+/* ============================================================
+   5. MARKDOWN HORIZONTAL RULES (---)
+   ============================================================ */
+
+/* This targets the '---' you use in your content files */
+hr {
+    border: 0;
+    /* Match the 1.5px 'light black' of your navigation */
+    border-top: 1.5px solid #444 !important; 
+    margin: 30px 0;
+    opacity: 1; /* Ensures it's not too faded */
+}
+
+/* Dark mode adjustment to match your navigation line */
+.dark hr {
+    border-top: 1.5px solid #666 !important;
 }

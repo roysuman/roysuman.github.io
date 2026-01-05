@@ -1,5 +1,9 @@
 ---
-title: "Blogs"
-description: "Technical deep-dives into systems architecture and engineering explorations."
-date: 2026-01-05
+title: "Technical Blogs"
+description: ""
+layout: "page"
 ---
+
+<div class="reading-list-container">
+Technical deep-dives into systems architecture and engineering explorations.
+</div>
