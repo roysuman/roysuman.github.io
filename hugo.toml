@@ -7,7 +7,14 @@ theme = 'PaperMod'
     defaultTheme = "auto"
     showCodeCopyButtons = true # Essential for SDEs
     showReadingTime = true
-    
-    [params.homeInfoParams]
-        Title = "sigcont"
-        Content = "Systems Architecture, Storage Internals, and Engineering Leadership."
+[params.homeInfoParams]
+    Title = "Hey, I am Suman"
+    Content = """
+**distributed systems, storage architecture, and the art of scaling.**
+
+I am a Senior SDE at AWS. I’ve transitioned from **solving persistence challenges in exabyte-scale storage** for S3 Glacier to **architecting orchestration and inference layers** for the AWS Bedrock platform.
+
+I have always been driven by the hidden complexity of infrastructure. There is a unique excitement in building the foundational systems that remain invisible to the world until they fail—and ensuring they don't. 
+
+I believe engineering is a discipline of continuous observation. I spend my time dissecting **research papers**, analyzing **open-source architectures**, and following the engineering blogs of teams solving global-scale problems. I’m building this site as my **digital garden**—a place to 'resume' (SIGCONT) my thoughts and document my learnings as I explore the evolving landscape of systems engineering.
+"""
