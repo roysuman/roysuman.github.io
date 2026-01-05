@@ -1,20 +1,29 @@
-baseURL = 'https://sigcont.me/'
-languageCode = 'en-us'
-title = 'sigcont'
-theme = 'PaperMod'
+[[menu.main]]
+    name = "Posts"
+    url = "/posts"
+    weight = 10
 
-[params]
-    defaultTheme = "auto"
-    showCodeCopyButtons = true # Essential for SDEs
-    showReadingTime = true
+[[menu.main]]
+    name = "Reading List"
+    url = "/reading-list"
+    weight = 20
+
+[[menu.main]]
+    name = "Scratchpad"
+    url = "/categories/scratchpad"
+    weight = 30
+
 [params.homeInfoParams]
     Title = "Hey, I am Suman"
     Content = """
-**distributed systems, storage architecture, and the art of scaling.**
+<span style="color: #2980b9; font-weight: bold; font-size: 1.15em;">distributed systems, storage architecture, and the art of scaling.</span>
 
 I am a Senior SDE at AWS. I’ve transitioned from **solving persistence challenges in exabyte-scale storage** for S3 Glacier to **architecting orchestration and inference layers** for the AWS Bedrock platform.
 
-I have always been driven by the hidden complexity of infrastructure. There is a unique excitement in building the foundational systems that remain invisible to the world until they fail—and ensuring they don't. 
+I am driven by the hidden complexity of infrastructure—the foundational systems that remain invisible to the world until they fail.
 
-I believe engineering is a discipline of continuous observation. I spend my time dissecting **research papers**, analyzing **open-source architectures**, and following the engineering blogs of teams solving global-scale problems. I’m building this site as my **digital garden**—a place to 'resume' (SIGCONT) my thoughts and document my learnings as I explore the evolving landscape of systems engineering.
+I spend my time dissecting **research papers**, analyzing **open-source architectures**, and documenting my learnings here. 
+
+---
+**[Posts](/posts)** &nbsp; • &nbsp; **[Reading List](/reading-list)** &nbsp; • &nbsp; **[Scratchpad](/categories/scratchpad)**
 """
