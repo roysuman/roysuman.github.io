@@ -1,6 +1,6 @@
 baseURL = 'https://sigcont.me/'
 languageCode = 'en-us'
-title = 'sigcont'
+title = 'SIGCONT'
 theme = 'PaperMod'
 
 [markup]
@@ -9,12 +9,22 @@ theme = 'PaperMod'
       unsafe = true
 
 [params]
+   # General Info (This is what WhatsApp/LinkedIn scrapes)
+    author = "Suman Roy"
+    description = "Sr. SDE at AWS Bedrock (Ex-S3). Thoughts on distributed systems and storage internals."
+
+    # PaperMod specific settings
     defaultTheme = "light"
     showCodeCopyButtons = true
     showReadingTime = true
     hideFooter = false
     showFullContent = false
     hidePageTree = true
+
+# This ensures your name/bio are embedded in the site's metadata
+    [params.social]
+        name = "Suman Roy"
+        description = "Sr. SDE at AWS Bedrock (Ex-S3)"
 
 [params.homeInfoParams]
     Title = "Hey, I am Suman"
