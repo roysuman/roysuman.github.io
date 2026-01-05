@@ -1,0 +1,81 @@
+/* ============================================================
+   1. TOP NAVIGATION & LOGO (Header Area)
+   ============================================================ */
+
+/* Target the Logo and all Menu links (Posts, Reading List, etc.) */
+.nav a, 
+#menu a, 
+.logo a {
+    text-decoration: none !important;
+    border: none !important;
+    box-shadow: none !important;
+    outline: none !important;
+    transition: color 0.2s ease !important;
+}
+
+/* Hover State for Header: Teal Color + Underline */
+.nav a:hover, 
+#menu a:hover, 
+.logo a:hover {
+    color: #00897b !important;
+    text-decoration: underline !important;
+    text-underline-offset: 6px !important; /* Clean spacing for top menu */
+}
+
+/* Keep the active menu item bold but without a permanent underline */
+#menu .active, .menu .active {
+    font-weight: 700 !important;
+    text-decoration: none !important;
+}
+
+/* ============================================================
+   2. READING LIST (The Index) 
+   ============================================================ */
+
+/* Target the links inside your <div class="reading-list-container"> */
+.reading-list-container a {
+    text-decoration: none !important;
+    border: none !important;
+    box-shadow: none !important;
+    color: #2980b9 !important; /* Technical Blue */
+    transition: all 0.2s ease;
+}
+
+.reading-list-container a:hover {
+    color: #00897b !important;
+    text-decoration: underline !important;
+    text-underline-offset: 3px;
+}
+
+/* Space out the items in your list */
+.reading-list-container li {
+    margin-bottom: 10px;
+    list-style-type: disc;
+}
+
+/* ============================================================
+   3. GLOBAL POSTS (Write-Ahead Log)
+   ============================================================ */
+
+/* All links inside post content */
+.post-content a {
+    text-decoration: none !important;
+    border: none !important;
+    box-shadow: none !important;
+    color: #2980b9 !important;
+}
+
+.post-content a:hover {
+    color: #00897b !important;
+    text-decoration: underline !important;
+    text-underline-offset: 3px;
+}
+
+/* Fix for footer links */
+.footer a {
+    text-decoration: none !important;
+}
+
+.footer a:hover {
+    text-decoration: underline !important;
+}
