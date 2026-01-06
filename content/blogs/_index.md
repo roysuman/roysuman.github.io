@@ -1,7 +1,7 @@
 ---
 title: "Technical Blogs"
 description: ""
-layout: "page"
+## layout: "page"
 ---
 
 <div class="reading-list-container">
