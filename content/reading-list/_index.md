@@ -28,7 +28,7 @@ Moving forward, I plan to gradually publish my personal notes and "deconstructio
 
 ### 💾 Indexed
 *High-signal resources moved to permanent storage.*
-
+* [HAKES: Scalable Vector Database for Embedding Search Service](https://arxiv.org/pdf/2505.12524)
 * [Chain Replication for Supporting High Throughput and Availability](https://www.cs.cornell.edu/home/rvr/papers/OSDI04.pdf)
 * [The slab allocator: an object-caching kernel memory allocator](https://dl.acm.org/doi/10.5555/1267257.1267263)
 * [Large-scale cluster management at Google with Borg](https://static.googleusercontent.com/media/research.google.com/en//pubs/archive/43438.pdf)
@@ -47,4 +47,5 @@ Moving forward, I plan to gradually publish my personal notes and "deconstructio
 * [Amazon Aurora: Design Considerations for High Throughput Cloud-Native Relational Databases](https://pages.cs.wisc.edu/~yxy/cs764-f20/papers/aurora-sigmod-17.pdf)
 * [Dynamo: Amazon’s Highly Available Key-value Store](https://www.cs.cornell.edu/courses/cs5414/2017fa/papers/dynamo.pdf)
 * [Using Paxos to Build a Scalable, Consistent, and Highly Available Datastore](https://arxiv.org/pdf/1103.2408)
+* [On Optimistic Methods for Concurrency Control](https://www.eecs.harvard.edu/~htk/publication/1981-tods-kung-robinson.pdf)
 </div>
